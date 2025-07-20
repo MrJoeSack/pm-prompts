@@ -4,6 +4,15 @@ description: Quick reference for all PM commands and frameworks
 
 # PM Commands Quick Reference
 
+## Quick Commands (Aliases)
+
+**⚡ Daily Use**
+- `/email` - Draft stakeholder communications (alias for stakeholder-sync)
+- `/spec` - Generate feature specifications (alias for feature-spec)
+- `/review` - Improve any document (alias for prd-review)
+- `/meeting-prep` - Structure meeting agendas and preparation
+- `/focus-discipline` - Apply systematic prioritization principles
+
 ## Core Commands
 
 **📋 Document Review & Creation**
@@ -31,10 +40,11 @@ description: Quick reference for all PM commands and frameworks
 
 ## Most Popular Commands
 
-- `/stakeholder-sync` - For emails and alignment
-- `/feature-spec` - For PRDs and specs  
-- `/strategy-check` - For strategy reviews
-- `/prd-review` - For document polish
+- `/email` - For stakeholder communications (quick)
+- `/spec` - For feature specifications (quick)
+- `/review` - For document improvement (quick)
+- `/meeting-prep` - For agenda preparation
+- `/focus-discipline` - For prioritization decisions
 
 ## Input Templates
 
