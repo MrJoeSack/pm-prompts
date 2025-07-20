@@ -32,6 +32,15 @@ Apply these principles to all PM work:
 - Maintain PM discipline in all recommendations
 
 **Custom Commands Available:**
+
+*Quick Commands (Daily Use):*
+- `/email` - Draft stakeholder communications (alias)
+- `/spec` - Generate feature specifications (alias)  
+- `/review` - Improve any document (alias)
+- `/meeting-prep` - Structure meeting agendas
+- `/focus-discipline` - Apply systematic prioritization
+
+*Core Commands:*
 - `/pm-help` - Quick reference for all commands
 - `/pm-examples` - Common PM scenarios with examples
 - `/strategy-check` - Analyze strategy docs using Rumelt's framework
