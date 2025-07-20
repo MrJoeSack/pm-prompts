@@ -51,7 +51,9 @@ cp -r .pm-library/.claude ./
 ## Navigation
 
 **🚀 Getting Started**
-- [Installation Guide](installation.md) - Setup options and troubleshooting
+- [Quick Start Guide](quick-start-guide.md) - Get productive in 5 minutes
+- [Installation Guide](installation.md) - Setup options and troubleshooting  
+- [Usage Examples](usage-examples.md) - Step-by-step workflows
 - [Google Docs Integration](google-docs-integration.md) - Copy/paste workflows
 - [PM Workflows](pm-workflows.md) - How PMs actually use this library
 
