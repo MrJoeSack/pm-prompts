@@ -1,5 +1,10 @@
 ---
-description: Analyze strategy documents using Rumelt's Good Strategy framework
+description: Analyze strategy documents (quarterly plans, roadmaps, strategy decks)
+examples:
+  - "Q2 product strategy document"
+  - "Annual roadmap presentation"
+  - "Go-to-market strategy brief"
+  - "Competitive positioning document"
 ---
 
 # Strategy Document Analysis
@@ -16,6 +21,11 @@ Flag these bad strategy patterns:
 - Disconnected action lists
 - Vague problem statements
 
+## Input Instructions
+Paste your strategy document content, or describe your strategy like:
+"Our strategy is to [approach] because [challenge] by doing [specific actions]"
+
+## Output
 Provide rewrite suggestions using the good-strategy-framework.md principles.
 
 Arguments: {{args}}

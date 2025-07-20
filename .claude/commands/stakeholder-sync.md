@@ -1,5 +1,10 @@
 ---
-description: Draft clear stakeholder communications and alignment messages
+description: Draft clear stakeholder communications (emails, meeting requests, alignment messages)
+examples:
+  - "Need legal approval for user analytics feature"
+  - "Want design team buy-in for onboarding changes" 
+  - "Update executive team on project delay"
+  - "Request budget approval for Q2 initiatives"
 ---
 
 # Stakeholder Sync Generator
@@ -23,6 +28,14 @@ Create stakeholder communication that moves work forward. Apply clarity principl
 - Is the ask crystal clear?
 - Are next steps actionable?
 - Would you respond quickly to this message?
+
+## Input Template
+Describe your situation like this:
+"I need [who] to [what action] because [why] by [when]"
+
+Examples:
+- "I need the legal team to approve our data collection approach because we want to ship analytics by month-end"
+- "I need design leadership to sign off on simplified onboarding because engineering needs specs by Friday"
 
 ## Output
 Draft the communication, then provide a brief effectiveness analysis.
