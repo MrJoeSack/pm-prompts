@@ -1,6 +1,6 @@
 # Claude Code Usage Examples
 
-*Real-world PM scenarios with this library*
+*PM scenarios using this library*
 
 ## Scenario 1: Strategy Document Review
 
@@ -61,4 +61,4 @@ Claude forces clarity:
 
 ## Integration Power
 
-These commands work together: strategy informs features, features need stakeholder buy-in, buy-in requires research insights. The library creates systematic PM thinking.
+These commands work together: strategy informs features, features need stakeholder buy-in, buy-in requires research insights. The library supports systematic PM workflows.
