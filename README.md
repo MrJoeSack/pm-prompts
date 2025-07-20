@@ -48,12 +48,36 @@ cp -r .pm-library/.claude ./
 # Commands now available: /strategy-review, /feature-spec, /prd-review
 ```
 
-**[Full Installation Guide](installation.md)** | **[Usage Examples](usage-examples.md)** | **[Workflow Automation](workflow-automation.md)**
+## Navigation
+
+**🚀 Getting Started**
+- [Installation Guide](installation.md) - Setup options and troubleshooting
+- [Google Docs Integration](google-docs-integration.md) - Copy/paste workflows
+- [PM Workflows](pm-workflows.md) - How PMs actually use this library
+
+**📋 Core Frameworks** 
+- [Economical Writing](economical-writing.md) - McCloskey's clarity principles
+- [Good Strategy Framework](good-strategy-framework.md) - Rumelt's strategy kernel
+- [User Research](user-research.md) - Research question discipline
+- [Feature Planning](feature-planning.md) - Clear feature specifications
+- [Data Analysis](data-analysis.md) - Signal vs noise interpretation
+- [Strategic Planning](strategic-planning.md) - Strategy document structure
+- [Stakeholder Communication](stakeholder-communication.md) - Effective alignment
+
+**💼 Advanced PM Scenarios**
+- [Difficult Conversations](difficult-conversations.md) - Navigate challenging discussions
+- [Executive Presentations](executive-presentations.md) - Structure presentations that drive decisions
+- [PRFAQ Generation](prfaq-generation.md) - Amazon-style product announcements
+- [Quarterly Planning](quarterly-planning.md) - Strategic planning cycle preparation
+
+**⚡ Automation**
+- [Usage Examples](usage-examples.md) - Real PM scenarios
+- [Workflow Automation](workflow-automation.md) - Systematic processes
 
 ## What's Included
 
-📋 **5 Custom Slash Commands** - PM workflow automation  
-🧠 **7 Core Frameworks** - Structured thinking tools  
+📋 **9 Custom Slash Commands** - PM workflow automation  
+🧠 **11 Core Frameworks** - Structured thinking tools  
 ⚡ **Automated Reviews** - Apply multiple frameworks to documents  
 📖 **Real Examples** - Practical PM scenarios  
 🔧 **Easy Setup** - Quick installation options
