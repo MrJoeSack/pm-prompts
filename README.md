@@ -1,19 +1,61 @@
-# Product Management Prompts
+# PM Claude Code Library
 
-A curated collection of practical prompts to clarify thinking and improve decision-making in product work.
+The definitive Claude Code prompt library for product managers. Transform your PM workflow with intelligent prompts, custom commands, and automated frameworks.
 
-Product management demands clear reasoning under uncertainty. These prompts serve as tools to cut through complexity and focus on what matters most.
+## Why This Exists
 
-## Organization
+Product management requires clear thinking under pressure. This library integrates battle-tested PM frameworks directly into Claude Code, making excellent product decisions faster and more consistent.
 
-- **User Research** - Understanding who you serve
-- **Feature Planning** - Building with intention  
-- **Stakeholder Communication** - Achieving alignment through clarity
-- **Data Analysis** - Finding signal in the noise
-- **Strategic Planning** - Thinking in systems, acting with purpose
+## Quick Start
 
-## Usage
+```bash
+# Clone into your Claude Code projects
+git clone https://github.com/MrJoeSack/pm-prompts.git
+cd pm-prompts
 
-Each prompt is designed to improve the quality of your thinking. Use them to sharpen questions, clarify assumptions, and make better decisions.
+# Claude Code will automatically load CLAUDE.md context
+# Custom slash commands are ready to use
+```
 
-The work is difficult. These tools make it manageable.
+## Core Capabilities
+
+**🧠 Thinking Frameworks**
+- Strategy analysis using Rumelt's Good Strategy principles
+- McCloskey's economical writing for clear communication
+- User research question discipline
+- Data analysis clarity tools
+
+**⚡ Claude Code Integration** 
+- Custom slash commands for instant PM workflows
+- Automated document review and improvement
+- Context-aware prompt application
+- Memory integration for consistent project knowledge
+
+**🔄 Workflow Automation**
+- `/strategy-review` - Instant strategy document analysis
+- `/feature-spec` - Generate clear feature specifications  
+- `/stakeholder-sync` - Draft alignment communications
+- `/research-plan` - Structure user research approaches
+
+## Installation
+
+```bash
+# Quick start - project specific
+git clone https://github.com/MrJoeSack/pm-prompts.git .pm-library
+cp .pm-library/CLAUDE.md ./CLAUDE.md
+cp -r .pm-library/.claude ./
+
+# Commands now available: /strategy-review, /feature-spec, /prd-review
+```
+
+**[Full Installation Guide](installation.md)** | **[Usage Examples](usage-examples.md)** | **[Workflow Automation](workflow-automation.md)**
+
+## What's Included
+
+📋 **5 Custom Slash Commands** - Instant PM workflows  
+🧠 **7 Core Frameworks** - Battle-tested thinking tools  
+⚡ **Automated Reviews** - Apply multiple frameworks simultaneously  
+📖 **Real Examples** - See it work on actual PM scenarios  
+🔧 **Easy Setup** - Working in minutes, not hours
+
+The work is difficult. These tools make it systematic.
