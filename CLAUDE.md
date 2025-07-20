@@ -66,3 +66,14 @@ For all PM work:
 - End with clear next steps
 
 Apply these frameworks consistently to support clear PM thinking and communication.
+
+## Current Project: GitHub Site Testing for PM Prompts
+
+**Context:** Working on implementing testing infrastructure for each PM prompt in the GitHub site to ensure quality and reliability.
+
+**Project Status:** Planning and setting up test framework for PM prompt validation
+- Focus: Each PM prompt needs proper testing coverage
+- Goal: Ensure all prompts work correctly and provide expected outputs
+- Method: Systematic testing approach for prompt reliability
+
+**Next Steps:** Define specific testing approach and implementation strategy for PM prompt validation.
