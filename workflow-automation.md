@@ -44,4 +44,4 @@
 
 ## The Compound Effect
 
-These workflows compound: clearer strategy leads to better features, which require clearer communication, creating systematic PM excellence.
+These workflows build on each other: clearer strategy leads to better features, which require clearer communication, supporting systematic PM work.

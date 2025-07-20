@@ -1,10 +1,10 @@
 # PM Claude Code Library
 
-The definitive Claude Code prompt library for product managers. Transform your PM workflow with intelligent prompts, custom commands, and automated frameworks.
+A Claude Code prompt library for product managers. Improve your PM workflow with structured prompts, custom commands, and proven frameworks.
 
 ## Why This Exists
 
-Product management requires clear thinking under pressure. This library integrates battle-tested PM frameworks directly into Claude Code, making excellent product decisions faster and more consistent.
+Product management requires clear thinking under pressure. This library integrates PM frameworks into Claude Code to support better decision-making.
 
 ## Quick Start
 
@@ -32,8 +32,8 @@ cd pm-prompts
 - Memory integration for consistent project knowledge
 
 **🔄 Workflow Automation**
-- `/strategy-review` - Instant strategy document analysis
-- `/feature-spec` - Generate clear feature specifications  
+- `/strategy-review` - Strategy document analysis
+- `/feature-spec` - Generate feature specifications  
 - `/stakeholder-sync` - Draft alignment communications
 - `/research-plan` - Structure user research approaches
 
@@ -52,10 +52,10 @@ cp -r .pm-library/.claude ./
 
 ## What's Included
 
-📋 **5 Custom Slash Commands** - Instant PM workflows  
-🧠 **7 Core Frameworks** - Battle-tested thinking tools  
-⚡ **Automated Reviews** - Apply multiple frameworks simultaneously  
-📖 **Real Examples** - See it work on actual PM scenarios  
-🔧 **Easy Setup** - Working in minutes, not hours
+📋 **5 Custom Slash Commands** - PM workflow automation  
+🧠 **7 Core Frameworks** - Structured thinking tools  
+⚡ **Automated Reviews** - Apply multiple frameworks to documents  
+📖 **Real Examples** - Practical PM scenarios  
+🔧 **Easy Setup** - Quick installation options
 
 The work is difficult. These tools make it systematic.

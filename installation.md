@@ -1,6 +1,6 @@
 # Installation & Setup Guide
 
-*Get the PM Claude Code library working in minutes*
+*Setup instructions for the PM Claude Code library*
 
 ## Quick Setup
 
@@ -61,4 +61,4 @@ Test the installation:
 - **Context not loading**: Verify `CLAUDE.md` in project root
 - **Global not working**: Check Claude Code finds `~/.claude/CLAUDE.md`
 
-The library works immediately after installation—Claude Code handles the rest.
+The library loads automatically after installation when Claude Code starts.
