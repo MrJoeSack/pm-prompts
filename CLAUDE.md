@@ -38,6 +38,10 @@ Apply these principles to all PM work:
 - `/research-plan` - Structure user research
 - `/prd-review` - Apply multiple frameworks to PRDs
 - `/metrics-clarity` - Data analysis framework application
+- `/difficult-conversation` - Structure challenging discussions
+- `/exec-presentation` - Build executive presentations
+- `/prfaq` - Generate Amazon-style product announcements
+- `/quarterly-planning` - Strategic planning cycle preparation
 
 ## Response Style
 
