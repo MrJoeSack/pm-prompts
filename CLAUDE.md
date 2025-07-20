@@ -32,16 +32,20 @@ Apply these principles to all PM work:
 - Maintain PM discipline in all recommendations
 
 **Custom Commands Available:**
-- `/strategy-review` - Full Rumelt framework analysis
-- `/feature-spec` - Generate clear feature specifications
-- `/stakeholder-sync` - Draft alignment communications  
-- `/research-plan` - Structure user research
-- `/prd-review` - Apply multiple frameworks to PRDs
-- `/metrics-clarity` - Data analysis framework application
+- `/pm-help` - Quick reference for all commands
+- `/pm-examples` - Common PM scenarios with examples
+- `/strategy-check` - Analyze strategy docs using Rumelt's framework
+- `/feature-spec` - Generate feature specifications and PRDs
+- `/stakeholder-sync` - Draft stakeholder communications  
+- `/research-plan` - Structure user research approaches
+- `/prd-review` - Review any PM document with multiple frameworks
+- `/metrics-clarity` - Analyze data and metrics for clear insights
 - `/difficult-conversation` - Structure challenging discussions
 - `/exec-presentation` - Build executive presentations
 - `/prfaq` - Generate Amazon-style product announcements
 - `/quarterly-planning` - Strategic planning cycle preparation
+
+**Quick Start:** Type `/pm-help` for command reference or `/pm-examples` for detailed scenarios.
 
 ## Response Style
 

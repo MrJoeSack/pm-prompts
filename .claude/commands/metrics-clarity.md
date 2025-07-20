@@ -1,5 +1,10 @@
 ---
-description: Apply data analysis framework for clear insights
+description: Analyze data and metrics (reports, dashboards, research results)
+examples:
+  - "Monthly user engagement report"
+  - "A/B test results analysis"
+  - "Customer survey findings"
+  - "Product metrics dashboard review"
 ---
 
 # Metrics Clarity Engine
@@ -20,6 +25,14 @@ Transform data analysis into clear insights using the data analysis framework:
 
 ## The Reality Check
 Perfect data doesn't exist. Good decisions do.
+
+## Input Instructions
+Paste your data/metrics content, or describe your analysis like:
+"Our [metric] shows [finding] but I want to make sure I'm interpreting this correctly"
+
+Examples:
+- "Our conversion rate dropped 15% but I'm not sure what's causing it"
+- "User engagement is up but revenue is flat - help me understand why"
 
 ## Output
 Provide the key finding in one sentence, then supporting analysis with bias and limitation checks.
