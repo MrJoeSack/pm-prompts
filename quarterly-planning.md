@@ -29,6 +29,13 @@ Transform quarterly planning from wishful thinking to strategic execution:
 - What metrics will tell us we're on track?
 - Where will we say no to maintain focus?
 
+**5. Capacity Planning (Do we have the resources?)**
+- Engineering capacity: Sprint velocity and team availability
+- Design bandwidth: UI/UX requirements and timeline
+- PM focus time: Strategic vs. operational work balance
+- Budget constraints: External tools, contractors, marketing spend
+- Dependency mapping: What requires other teams' input?
+
 ## Planning Framework
 
 **Week 1: Data Gathering**
@@ -46,6 +53,9 @@ Transform quarterly planning from wishful thinking to strategic execution:
 - Generate potential quarterly focuses
 - Apply feature-planning discipline to major initiatives
 - Estimate resource requirements and trade-offs
+- Calculate team capacity using planning poker or story points
+- Map dependencies and identify critical path items
+- Buffer planning: Reserve 20% capacity for unexpected priorities
 
 **Week 4: Decision and Communication**
 - Apply stakeholder-communication framework to planning docs
