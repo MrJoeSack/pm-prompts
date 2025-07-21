@@ -36,6 +36,12 @@ cd pm-prompts
 - `/feature-spec` - Generate feature specifications  
 - `/stakeholder-sync` - Draft alignment communications
 - `/research-plan` - Structure user research approaches
+- `/roadmap-planning` - Systematic roadmap creation and prioritization
+- `/prioritization` - RICE, ICE, and Kano model scoring
+- `/customer-feedback` - Feedback synthesis and analysis
+- `/okr-planning` - Objective and key result setting
+- `/competitive-analysis` - Market intelligence and positioning
+- `/product-launch` - Launch planning and coordination
 
 ## Installation
 
@@ -60,17 +66,29 @@ cp -r .pm-library/.claude ./
 **📋 Core Frameworks** 
 - [Economical Writing](economical-writing.md) - McCloskey's clarity principles
 - [Good Strategy Framework](good-strategy-framework.md) - Rumelt's strategy kernel
-- [User Research](user-research.md) - Research question discipline
-- [Feature Planning](feature-planning.md) - Clear feature specifications
-- [Data Analysis](data-analysis.md) - Signal vs noise interpretation
+- [User Research](user-research.md) - Research question discipline with qual/quant methods
+- [Feature Planning](feature-planning.md) - Clear specifications with technical feasibility
+- [Data Analysis](data-analysis.md) - Signal vs noise with A/B testing design
 - [Strategic Planning](strategic-planning.md) - Strategy document structure
 - [Stakeholder Communication](stakeholder-communication.md) - Effective alignment
+
+**🎯 Product Operations**
+- [Roadmap Planning](roadmap-planning.md) - Systematic roadmapping with RICE prioritization
+- [Prioritization Methods](prioritization-methods.md) - RICE, ICE, Kano model frameworks
+- [Customer Feedback](customer-feedback.md) - Feedback synthesis and Jobs-to-be-Done
+- [OKR Framework](okr-framework.md) - Objective setting and key result tracking
+- [Product Launch](product-launch.md) - Launch planning, execution, and optimization
+- [Competitive Analysis](competitive-analysis.md) - Market intelligence and positioning
 
 **💼 Advanced PM Scenarios**
 - [Difficult Conversations](difficult-conversations.md) - Navigate challenging discussions
 - [Executive Presentations](executive-presentations.md) - Structure presentations that drive decisions
 - [PRFAQ Generation](prfaq-generation.md) - Amazon-style product announcements
-- [Quarterly Planning](quarterly-planning.md) - Strategic planning cycle preparation
+- [Quarterly Planning](quarterly-planning.md) - Strategic planning with capacity planning
+- [Stakeholder Mapping](stakeholder-mapping.md) - Influence analysis and coalition building
+- [Go-to-Market](go-to-market.md) - GTM strategy, execution, and measurement
+- [Crisis Communication](crisis-communication.md) - Crisis response and trust preservation
+- [Team Alignment](team-alignment.md) - Cross-functional coordination and collaboration
 
 **⚡ Automation**
 - [Usage Examples](usage-examples.md) - Real PM scenarios
@@ -78,10 +96,12 @@ cp -r .pm-library/.claude ./
 
 ## What's Included
 
-📋 **9 Custom Slash Commands** - PM workflow automation  
-🧠 **11 Core Frameworks** - Structured thinking tools  
+📋 **15 Custom Slash Commands** - PM workflow automation  
+🧠 **17 Core Frameworks** - Structured thinking tools  
+🎯 **6 Product Operations** - Roadmapping, prioritization, feedback, OKRs, launches, competitive analysis  
+💼 **8 Advanced Scenarios** - Stakeholder management, GTM, crisis communication, team alignment  
 ⚡ **Automated Reviews** - Apply multiple frameworks to documents  
-📖 **Real Examples** - Practical PM scenarios  
+📖 **Real Examples** - Practical PM scenarios with comprehensive test coverage  
 🔧 **Easy Setup** - Quick installation options
 
 The work is difficult. These tools make it systematic.
