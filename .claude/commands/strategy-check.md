@@ -26,6 +26,6 @@ Paste your strategy document content, or describe your strategy like:
 "Our strategy is to [approach] because [challenge] by doing [specific actions]"
 
 ## Output
-Provide rewrite suggestions using the good-strategy-framework.md principles.
+Provide rewrite suggestions using the strategy/good-strategy-framework.md principles.
 
 Arguments: {{args}}

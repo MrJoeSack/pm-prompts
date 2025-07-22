@@ -133,49 +133,54 @@ curl -sSL https://raw.githubusercontent.com/MrJoeSack/pm-prompts/main/install.sh
 ## Navigation
 
 **🚀 Getting Started**
-- [Quick Start Guide](quick-start-guide.md) - Get productive in 5 minutes
-- [Installation Guide](installation.md) - Setup options and troubleshooting  
-- [Usage Examples](usage-examples.md) - Step-by-step workflows
-- [Google Docs Integration](google-docs-integration.md) - Copy/paste workflows
-- [PM Workflows](pm-workflows.md) - How PMs actually use this library
+- [Quick Start Guide](docs/quick-start-guide.md) - Get productive in 5 minutes
+- [Installation Guide](docs/installation.md) - Setup options and troubleshooting  
+- [Usage Examples](docs/usage-examples.md) - Step-by-step workflows
+- [Google Docs Integration](docs/google-docs-integration.md) - Copy/paste workflows
+- [PM Workflows](docs/pm-workflows.md) - How PMs actually use this library
 
-**📋 Core Frameworks** 
-- [Economical Writing](economical-writing.md) - McCloskey's clarity principles
-- [Good Strategy Framework](good-strategy-framework.md) - Rumelt's strategy kernel
-- [User Research](user-research.md) - Research question discipline with qual/quant methods
-- [Feature Planning](feature-planning.md) - Clear specifications with technical feasibility
-- [Data Analysis](data-analysis.md) - Signal vs noise with A/B testing design
-- [Strategic Planning](strategic-planning.md) - Strategy document structure
-- [Stakeholder Communication](stakeholder-communication.md) - Effective alignment
+**📋 Core PM Skills**
+- [Economical Writing](core/economical-writing.md) - McCloskey's clarity principles
+- [Feature Planning](core/feature-planning.md) - Clear specifications with technical feasibility
+- [Prioritization Methods](core/prioritization-methods.md) - RICE, ICE, Kano model frameworks
+- [Stakeholder Communication](core/stakeholder-communication.md) - Effective alignment
+- [User Research](core/user-research.md) - Research question discipline with qual/quant methods
+- [Data Analysis](core/data-analysis.md) - Signal vs noise with A/B testing design
 
-**🎯 Product Operations**
-- [Roadmap Planning](roadmap-planning.md) - Systematic roadmapping with RICE prioritization
-- [Prioritization Methods](prioritization-methods.md) - RICE, ICE, Kano model frameworks
-- [Customer Feedback](customer-feedback.md) - Feedback synthesis and Jobs-to-be-Done
-- [OKR Framework](okr-framework.md) - Objective setting and key result tracking
-- [Product Launch](product-launch.md) - Launch planning, execution, and optimization
-- [Competitive Analysis](competitive-analysis.md) - Market intelligence and positioning
+**🎯 Strategy & Planning**
+- [Good Strategy Framework](strategy/good-strategy-framework.md) - Rumelt's strategy kernel
+- [Strategic Planning](strategy/strategic-planning.md) - Strategy document structure
+- [Roadmap Planning](strategy/roadmap-planning.md) - Systematic roadmapping with RICE prioritization
+- [OKR Framework](strategy/okr-framework.md) - Objective setting and key result tracking
+- [Quarterly Planning](strategy/quarterly-planning.md) - Strategic planning with capacity planning
+- [Competitive Analysis](strategy/competitive-analysis.md) - Market intelligence and positioning
 
-**💼 Advanced PM Scenarios**
-- [Difficult Conversations](difficult-conversations.md) - Navigate challenging discussions
-- [Executive Presentations](executive-presentations.md) - Structure presentations that drive decisions
-- [PRFAQ Generation](prfaq-generation.md) - Amazon-style product announcements
-- [Quarterly Planning](quarterly-planning.md) - Strategic planning with capacity planning
-- [Stakeholder Mapping](stakeholder-mapping.md) - Influence analysis and coalition building
-- [Go-to-Market](go-to-market.md) - GTM strategy, execution, and measurement
-- [Crisis Communication](crisis-communication.md) - Crisis response and trust preservation
-- [Team Alignment](team-alignment.md) - Cross-functional coordination and collaboration
+**🚀 Product Delivery**
+- [PRFAQ Generation](product-delivery/prfaq-generation.md) - Amazon-style product announcements
+- [Product Launch](product-delivery/product-launch.md) - Launch planning, execution, and optimization
+- [Customer Feedback](product-delivery/customer-feedback.md) - Feedback synthesis and Jobs-to-be-Done
+- [Go-to-Market](product-delivery/go-to-market.md) - GTM strategy, execution, and measurement
+- [Focus Discipline](product-delivery/focus-discipline.md) - Systematic prioritization
+
+**💼 Special Situations**
+- [Crisis Communication](special-situations/crisis-communication.md) - Crisis response and trust preservation
+- [Difficult Conversations](special-situations/difficult-conversations.md) - Navigate challenging discussions
+- [Executive Presentations](special-situations/executive-presentations.md) - Structure presentations that drive decisions
+- [Stakeholder Mapping](special-situations/stakeholder-mapping.md) - Influence analysis and coalition building
+- [Team Alignment](special-situations/team-alignment.md) - Cross-functional coordination and collaboration
 
 **⚡ Automation**
-- [Usage Examples](usage-examples.md) - Real PM scenarios
-- [Workflow Automation](workflow-automation.md) - Systematic processes
+- [Usage Examples](docs/usage-examples.md) - Real PM scenarios
+- [Workflow Automation](docs/workflow-automation.md) - Systematic processes
 
 ## What's Included
 
 📋 **15 Custom Slash Commands** - PM workflow automation  
 🧠 **17 Core Frameworks** - Structured thinking tools  
-🎯 **6 Product Operations** - Roadmapping, prioritization, feedback, OKRs, launches, competitive analysis  
-💼 **8 Advanced Scenarios** - Stakeholder management, GTM, crisis communication, team alignment  
+🎯 **6 Core PM Skills** - Writing, planning, prioritization, communication, research, analysis
+📊 **6 Strategy & Planning** - Strategy frameworks, roadmapping, OKRs, quarterly planning
+🚀 **5 Product Delivery** - PRFAQs, launches, feedback, GTM, focus discipline
+💼 **5 Special Situations** - Crisis communication, difficult conversations, executive alignment  
 ⚡ **Automated Reviews** - Apply multiple frameworks to documents  
 📖 **Real Examples** - Practical PM scenarios  
 
