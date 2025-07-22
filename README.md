@@ -1,20 +1,20 @@
 # PM Claude Code Library
 
-A Claude Code prompt library for product managers. Improve your PM workflow with structured prompts, custom commands, and proven frameworks.
+A Claude Code prompt library for product managers. Structured prompts and custom commands based on established PM frameworks.
 
 ## Why This Exists
 
-Product management requires clear thinking under pressure. This library integrates PM frameworks into Claude Code to support better decision-making.
+This library integrates established PM frameworks into Claude Code to help structure and organize product management work.
 
-## 🎯 How PMs Actually Use This (No Command Line Knowledge Required!)
+## 🎯 How PMs Use This
 
 After one-time setup by IT/Engineering, PMs use Claude Code through simple chat:
 
 ### What Claude Code Actually Looks Like:
-Yes, Claude Code runs in a terminal window, but **you just chat with it** - no coding needed!
-- You'll see a command prompt, but you type in plain English
-- It responds like ChatGPT, but with PM superpowers
-- Slash commands (like `/feature-spec`) are just shortcuts
+Claude Code runs in a terminal window but accepts natural language input:
+- You see a command prompt and type in plain English
+- It processes your request and returns structured output
+- Slash commands (like `/feature-spec`) provide quick access to specific functions
 
 ### The Simple Workflow:
 1. **Work in your normal tools** (Google Docs, Notion, Jira, etc.)
@@ -39,7 +39,7 @@ Yes, Claude Code runs in a terminal window, but **you just chat with it** - no c
      Rough Notes              Chat with Claude Code           Polished PRD
 ```
 
-**Think of it like:** Opening Slack in a terminal - yes it's a terminal window, but you're just chatting!
+The terminal is simply the interface for natural language interaction.
 
 ## 📅 A PM's Typical Day with Claude Code
 
@@ -80,23 +80,23 @@ cp .pm-library/CLAUDE.md ./CLAUDE.md
 cp -r .pm-library/.claude ./
 ```
 
-**That's it!** Now any PM can open Claude Code and start chatting with their AI PM assistant.
+**That's it!** PMs can now use Claude Code with PM-specific commands.
 
-👉 **New to Claude Code?** Check our [FAQ](docs/FAQ.md) for why it's better than ChatGPT/Gemini for PM work.
+👉 **New to Claude Code?** Check our [FAQ](docs/FAQ.md) for comparisons with other tools.
 
 ## Core Capabilities
 
-**🧠 Thinking Frameworks**
-- Strategy analysis using Rumelt's Good Strategy principles
-- McCloskey's economical writing for clear communication
-- User research question discipline
-- Data analysis clarity tools
+**🧠 Included Frameworks**
+- Rumelt's Good Strategy principles
+- McCloskey's economical writing
+- User research methodologies
+- Data analysis structures
 
-**⚡ Claude Code Integration** 
-- Custom slash commands for instant PM workflows
-- Automated document review and improvement
-- Context-aware prompt application
-- Memory integration for consistent project knowledge
+**⚡ Claude Code Features** 
+- Custom slash commands for PM tasks
+- Document structuring and review
+- Context maintained via CLAUDE.md
+- Project-specific configurations
 
 **🔄 Workflow Automation Commands**
 - `/strategy-review` - Analyze and improve strategy documents
@@ -180,32 +180,38 @@ curl -sSL https://raw.githubusercontent.com/MrJoeSack/pm-prompts/main/install.sh
 
 ## What's Included
 
-📋 **15 Custom Slash Commands** - PM workflow automation  
-🧠 **17 Core Frameworks** - Structured thinking tools  
-🎯 **6 Core PM Skills** - Writing, planning, prioritization, communication, research, analysis
-📊 **6 Strategy & Planning** - Strategy frameworks, roadmapping, OKRs, quarterly planning
-🚀 **5 Product Delivery** - PRFAQs, launches, feedback, GTM, focus discipline
-💼 **5 Special Situations** - Crisis communication, difficult conversations, executive alignment  
-⚡ **Automated Reviews** - Apply multiple frameworks to documents  
-📖 **Real Examples** - Practical PM scenarios  
+📋 **15 Custom Slash Commands** - Quick access to PM tasks  
+🧠 **Multiple PM Frameworks** - Based on established methodologies  
+🎯 **Core Skills** - Writing, planning, prioritization, communication
+📊 **Strategy Tools** - Roadmapping, OKRs, competitive analysis
+🚀 **Delivery Support** - PRFAQs, launches, GTM planning
+💼 **Special Situations** - Crisis communication, difficult conversations
 
-## For Management: Why Your PMs Need This
+## For Teams Considering This Library
 
-### Time Savings
-- **Feature specs**: 3 hours → 30 minutes
-- **Executive updates**: 45 minutes → 10 minutes  
-- **Prioritization**: 2 hours → 15 minutes
+### Potential Benefits
+- Faster document creation through templates and frameworks
+- Consistent application of PM methodologies
+- Reduced time on routine writing tasks
 
-### Quality & Consistency
-- Every PM uses the same proven frameworks
-- Junior PMs produce senior-level outputs
-- Reduces blind spots in strategy and planning
+### Implementation
+- Natural language interface (no coding required)
+- One-time setup by IT/Engineering
+- Gradual adoption possible - start with volunteers
 
-### Easy Adoption
-- **PMs need zero technical skills** - it's just like using ChatGPT
-- One-time setup by IT (5 minutes)
-- ROI visible within first week
+### Evaluation
+- Test with a small group first
+- Measure time savings and quality improvements
+- Gather feedback before broader rollout
 
 ---
 
-*The work is difficult. These tools make it systematic.*
+*A collection of PM frameworks and tools for Claude Code.*
+
+## License
+
+This project is open source. See LICENSE file for details.
+
+## Disclaimer
+
+This is a community project and is not affiliated with or endorsed by Anthropic.

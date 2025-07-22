@@ -1,134 +1,142 @@
 # Frequently Asked Questions
 
-## Why Claude Code instead of ChatGPT, Gemini, or Copilot?
+## Why use Claude Code with this library?
 
-### 🎯 Built for Real Work, Not Just Chat
-- **Works with your actual files**: Claude Code reads/edits your real documents directly. No more copy-pasting between browser tabs
-- **Remembers your project context**: The CLAUDE.md file keeps your project knowledge persistent across sessions
-- **Slash commands = muscle memory**: `/feature-spec` is faster than explaining what you want every time
+### Works with Local Files
+- Claude Code can read and edit files directly on your computer
+- The CLAUDE.md file maintains context within your project
+- Slash commands provide quick access to common PM tasks
 
-### 🔒 Security & Privacy First
-- **Everything stays local**: Your code and documents never leave your machine (unlike web-based tools)
-- **No training on your data**: Your proprietary information stays yours
-- **IT-approved**: Runs locally, follows corporate security policies
+### Local Processing
+- Claude Code processes files on your machine
+- You control what data is shared
+- Works within your existing security policies
 
-### 🚀 PM-Specific Advantages
-- **Custom PM workflows**: This library provides 15+ commands designed specifically for PM tasks
-- **Consistent frameworks**: Every PM on your team uses the same proven methodologies
-- **No context switching**: Stay in your terminal/IDE where your work lives
+### PM-Specific Features
+- This library includes 15+ commands for PM tasks
+- Based on established frameworks (McCloskey, Rumelt, RICE/ICE)
+- Designed to work with your existing workflow
 
 ## How is this different from using Claude.ai directly?
 
 **Claude.ai (Web)**
-- General purpose conversations
+- Browser-based interface
 - Copy-paste workflow
-- Loses context between sessions
-- Can't edit files directly
+- New context each session
+- Cannot access local files
 
-**Claude Code (This Library)**
-- PM-specific commands and frameworks
-- Direct file integration
-- Persistent project memory
-- Automated workflows
+**Claude Code with This Library**
+- Desktop application
+- Direct file access
+- Project context via CLAUDE.md
+- Slash commands for common tasks
 
-## What exactly is Claude Code?
+## What is Claude Code?
 
-Claude Code is Anthropic's official desktop application that brings Claude's capabilities directly to your development environment. Think of it as "Claude for professionals who work with files and code."
+Claude Code is Anthropic's desktop application that provides Claude's capabilities with local file access. It runs in a terminal but accepts natural language input.
 
-## Do I need to know how to code to use this?
+## Do I need programming knowledge?
 
-**No!** Despite the name "Claude Code," you just chat with it. The terminal window is just where the chat happens - you type in plain English.
+No. While Claude Code runs in a terminal, you interact with it using natural language. The terminal is simply the interface.
 
-## Can I use this with my existing PM tools?
+## Can I use this with my existing tools?
 
-**Yes!** This enhances your current workflow:
-- Keep using Google Docs, Notion, Jira, etc.
-- Copy content → Claude Code → Paste back improved version
-- No tool migration required
+Yes. This library is designed to complement your current workflow:
+- Continue using your preferred editors and tools
+- Copy content to Claude Code for assistance
+- Paste improved content back
 
-## Is this just another AI tool that will make generic content?
+## What frameworks does this library include?
 
-**No.** This library enforces specific PM frameworks:
 - McCloskey's economical writing principles
 - Rumelt's Good Strategy framework  
 - RICE/ICE prioritization models
 - Jobs-to-be-Done methodology
-
-Every output follows proven PM best practices, not generic AI templates.
+- Additional PM-specific templates
 
 ## How long does setup take?
 
-- **For IT/Engineering**: 5-10 minutes to install Claude Code + this library
-- **For PMs**: 0 minutes - just open and start using
-- **Learning curve**: 15 minutes to try all major commands
+- Installing Claude Code: 5-10 minutes
+- Adding this library: 2-3 minutes
+- Learning basic commands: 10-15 minutes
 
-## What if I'm not technical?
+## Is this suitable for non-technical users?
 
-Perfect! This library was designed for PMs, not engineers:
+Yes. This library was designed for product managers:
+- Natural language interaction
 - No coding required
-- Plain English commands
-- Visual workflow (copy → command → paste)
-- IT handles the one-time setup
+- Copy-paste workflow
+- IT can assist with initial setup
 
-## Will this replace me as a PM?
+## What does this tool do?
 
-**No.** This amplifies your PM skills:
-- You make the decisions
-- You provide the context and judgment
-- You own the strategy
-- Claude Code just helps you communicate and structure better
+This tool assists with:
+- Structuring documents using PM frameworks
+- Improving clarity and consistency
+- Applying established methodologies
+- Saving time on routine writing tasks
 
-Think of it as hiring a junior PM who's really good at frameworks and writing.
+You maintain control over strategy, decisions, and final content.
 
-## How do I convince my manager?
+## How can I evaluate this for my team?
 
-Show them:
-1. **Time saved**: 3-hour PRD → 30 minutes
-2. **Consistency**: Every PM follows the same frameworks
-3. **Quality**: Junior PMs produce senior-level docs
-4. **Security**: Everything stays local
-5. **Low risk**: Start with 2-3 PMs for a month
+Consider:
+1. **Time savings**: Compare time spent on document creation
+2. **Consistency**: Evaluate framework adoption across team
+3. **Quality**: Review output against your standards
+4. **Workflow fit**: Test integration with your tools
+5. **Pilot program**: Start with volunteers for feedback
 
-## Can I customize this for my company's specific needs?
+## Can I customize this library?
 
-**Yes!** You can:
-- Add your company's frameworks
-- Create custom slash commands
-- Include your templates
-- Adapt the voice/tone
+Yes. You can:
+- Add custom frameworks
+- Create new slash commands
+- Modify existing templates
+- Adjust for your organization's style
 
-## What about compliance and security?
+## What about data security?
 
-- **Local execution**: Nothing goes to the cloud unless you explicitly share
-- **No data retention**: Claude doesn't remember between sessions (except what you save in CLAUDE.md)
-- **Audit trail**: All changes happen through your normal version control
-- **IT control**: Can be deployed and managed by your IT team
+- Claude Code processes data locally
+- Project context stays in your CLAUDE.md file
+- You control what information is included
+- Standard version control applies
 
-## How does this compare to Microsoft Copilot?
+## How does this compare to other AI assistants?
 
-**Microsoft Copilot**
-- Integrated with Office suite
-- General purpose assistant
-- Limited customization
-- Subscription per user
+Each tool has different strengths:
+- This library focuses on PM-specific tasks
+- Includes established PM frameworks
+- Allows extensive customization
+- Works with local files
 
-**PM Claude Code Library**  
-- PM-specific frameworks
-- Highly customizable
-- One-time setup
-- Works with any tools
+Evaluate based on your specific needs.
 
-## What's the ROI?
+## What results can I expect?
 
-**Week 1**: Save 2-3 hours on document creation
-**Month 1**: Standardize team communication
-**Quarter 1**: Measurable improvement in planning quality
-**Year 1**: 10-20% more time for strategic work
+Results vary based on usage, but users report:
+- Faster document creation
+- More consistent framework application
+- Improved document structure
+- Time savings on routine tasks
+
+Individual results depend on current processes and adoption.
 
 ## Where do I start?
 
-1. Ask IT to install Claude Code (see [Installation Guide](installation.md))
+1. Install Claude Code (see [Installation Guide](installation.md))
 2. Clone this repository
-3. Try `/pm-help` to see all commands
-4. Start with `/feature-spec` on your next PRD
-5. Join our community for tips and updates
+3. Try `/pm-help` to see available commands
+4. Start with a simple task like `/feature-spec`
+5. Gradually explore other features
+
+## How do I get help?
+
+- Review documentation in this repository
+- Check [GitHub Issues](https://github.com/MrJoeSack/pm-prompts/issues)
+- Consult Claude Code documentation
+- Ask your IT team for setup assistance
+
+## Is this an official Anthropic product?
+
+No. This is a community-created library that works with Claude Code. It is not affiliated with or endorsed by Anthropic.
