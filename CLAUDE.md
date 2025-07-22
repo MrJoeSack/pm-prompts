@@ -65,6 +65,7 @@ Apply these principles to all PM work:
 - `/customer-feedback` - Feedback synthesis and analysis
 - `/okr-planning` - Objective and key result setting
 - `/competitive-analysis` - Market intelligence and positioning
+- `/competitor-research` - Deep research on specific competitors with web and news analysis
 - `/product-launch` - Launch planning and coordination
 
 *Core Commands:*

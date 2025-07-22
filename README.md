@@ -49,6 +49,7 @@ Done. PMs can now use Claude Code with PM commands.
 - `/customer-feedback` - Synthesize feedback
 - `/okr-planning` - Set objectives and key results
 - `/competitive-analysis` - Market intelligence
+- `/competitor-research` - Deep competitor research with web and news analysis
 - `/product-launch` - Launch planning
 
 **Complete list:** Type `/pm-help` in Claude Code
@@ -108,7 +109,7 @@ git clone https://github.com/MrJoeSack/pm-prompts.git ~/.claude-global/pm-librar
 
 ## What's Included
 
-- **15 Slash Commands** - Quick access to PM tasks  
+- **16 Slash Commands** - Quick access to PM tasks  
 - **PM Frameworks** - Based on established methodologies  
 - **Core Skills** - Writing, planning, prioritization, communication
 - **Strategy Tools** - Roadmapping, OKRs, competitive analysis
