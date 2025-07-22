@@ -1,48 +1,45 @@
 # Installation & Setup Guide
 
-*Complete setup instructions for Claude Code and the PM library*
+Complete setup instructions for Claude Code and the PM library.
 
-## Prerequisites: Installing Claude Code
+## Step 1: Install Claude Code
 
-### Step 1: Get Claude Code (5 minutes)
+**IT/Engineering installs:**
 
-**For IT/Engineering to install:**
+1. **Download** Claude Code from [claude.ai/code](https://claude.ai/code)
+   - Available for Mac, Windows, Linux
+   - Requires Claude Pro or Team subscription
 
-1. **Download Claude Code** from [claude.ai/code](https://claude.ai/code)
-   - Available for Mac, Windows, and Linux
-   - Requires a Claude Pro or Team subscription
+2. **Install** the application
+   - Mac: Drag to Applications
+   - Windows: Run installer
+   - Linux: Follow package instructions
 
-2. **Install the application**
-   - Mac: Drag to Applications folder
-   - Windows: Run the installer
-   - Linux: Follow package manager instructions
-
-3. **Sign in with your Anthropic account**
-   - Use your work email if you have a team subscription
+3. **Sign in** with Anthropic account
+   - Use work email for team subscription
    - Or personal Claude Pro account
 
-4. **Verify installation**
+4. **Verify** installation
    ```bash
-   # Open terminal and type:
    claude --version
    ```
 
-### Step 2: Understanding Claude Code
+## Step 2: Test Claude Code
 
 **What PMs need to know:**
-- Claude Code opens in a terminal but works like chat
+- Claude Code opens in terminal but accepts natural language
 - You type in plain English, not code
-- It can read and edit files on your computer
-- Everything stays local on your machine
+- It reads and edits files on your computer
+- Everything processes locally
 
 **Quick test:**
-1. Open Claude Code (type `claude` in terminal)
-2. Ask it something like "What files are in this folder?"
-3. It should list your files - that's it!
+1. Open terminal, type `claude`
+2. Ask "What files are in this folder?"
+3. It lists your files
 
-## Installing the PM Library
+## Step 3: Install PM Library
 
-Once Claude Code is installed, add the PM frameworks:
+Add PM frameworks to Claude Code:
 
 ### Option 1: Project-Specific (Recommended)
 ```bash
@@ -50,11 +47,9 @@ Once Claude Code is installed, add the PM frameworks:
 git clone https://github.com/MrJoeSack/pm-prompts.git .pm-library
 cp .pm-library/CLAUDE.md ./CLAUDE.md  
 cp -r .pm-library/.claude ./
-
-# That's it! The PM commands are now available
 ```
 
-### Option 2: Global Access (For Multiple Projects)
+### Option 2: Global Access
 ```bash  
 # Install once, use everywhere
 cd ~
@@ -63,20 +58,19 @@ ln -s ~/pm-prompts/CLAUDE.md ~/.claude/CLAUDE.md
 ln -s ~/pm-prompts/.claude/commands ~/.claude/commands
 ```
 
-### Option 3: Quick Install (No Git Required)
+### Option 3: Quick Install
 ```bash
-# Download just the essentials
+# Download essentials only
 curl -o CLAUDE.md https://raw.githubusercontent.com/MrJoeSack/pm-prompts/main/CLAUDE.md
 mkdir -p .claude/commands
 cd .claude/commands
 curl -O https://raw.githubusercontent.com/MrJoeSack/pm-prompts/main/.claude/commands/feature-spec.md
 curl -O https://raw.githubusercontent.com/MrJoeSack/pm-prompts/main/.claude/commands/stakeholder-sync.md
-# Add more commands as needed
 ```
 
-## Verification
+## Step 4: Verify Setup
 
-Test that everything works:
+Test everything works:
 
 1. **Open Claude Code**
    ```bash
@@ -84,44 +78,41 @@ Test that everything works:
    ```
 
 2. **Try PM commands**
-   - Type: `/pm-help` (should list all commands)
-   - Type: `/feature-spec` (should ask for feature details)
-   - Type: "Help me write a PRD" (should offer to use frameworks)
-
-3. **Check context loading**
+   - Type: `/pm-help` (lists all commands)
+   - Type: `/feature-spec` (asks for feature details)
    - Ask: "What PM frameworks do you have?"
+
+3. **Check context**
    - Should list economical writing, good strategy, etc.
 
-## For PMs: Your First Session
+## For PMs: First Session
 
-1. **Open terminal** (Terminal on Mac, Command Prompt on Windows)
-2. **Navigate to your project** 
+1. **Open terminal**
+2. **Navigate to project** 
    ```bash
-   cd /path/to/your/product/folder
+   cd /path/to/your/project
    ```
 3. **Start Claude Code**
    ```bash
    claude
    ```
-4. **Try your first command**
+4. **Try first command**
    ```
    You: /feature-spec
-   You: I need to spec out a user authentication feature
+   You: I need to spec out user authentication
    Claude: [Provides structured PRD template]
    ```
 
-## For IT Administrators
+## For IT: Team Deployment
 
-### Deployment Options
-
-**Individual Installation**
+### Individual Setup
 - Install Claude Code on each PM's machine
 - Clone library to shared location
 - Create symlinks for each user
 
-**Team Deployment**
+### Team Deployment
 ```bash
-# Create shared library location
+# Create shared library
 sudo mkdir -p /opt/pm-claude-library
 sudo git clone https://github.com/MrJoeSack/pm-prompts.git /opt/pm-claude-library
 
@@ -132,37 +123,37 @@ ln -s /opt/pm-claude-library/.claude/commands ~/.claude/commands
 
 ### Security Considerations
 - Claude Code processes files locally
-- You control what data is shared
+- You control what data gets shared
 - Set file permissions appropriately
-- Can restrict which folders Claude Code can access
-- All actions are logged in terminal history
+- Can restrict folder access
+- All actions logged in terminal history
 
 ## Customization
 
-### Add Company-Specific Commands
+### Add Company Commands
 Create `.claude/commands/your-command.md`:
 ```markdown
 ---
 name: company-prfaq
-description: Generate PRFAQ in our company format
+description: Generate PRFAQ in our format
 ---
 
-Generate a PRFAQ following our company template with sections for:
+Generate PRFAQ with:
 - Problem Statement
 - Customer Benefits  
 - Internal Benefits
 - FAQ (5-7 questions)
 
-Use our tone: professional but approachable.
+Use professional but approachable tone.
 ```
 
 ### Extend PM Context
 Add to `CLAUDE.md`:
 ```markdown
 ## Company PM Standards
-- All PRDs must include success metrics
-- Use DACI model for decision docs
-- Feature flags required for all launches
+- All PRDs include success metrics
+- Use DACI for decision docs
+- Feature flags required for launches
 - Include privacy review section
 ```
 
@@ -178,7 +169,7 @@ Add to `CLAUDE.md`:
 - Restart Claude Code
 
 **"No PM context available"**
-- Ensure CLAUDE.md is in current directory
+- Ensure CLAUDE.md in current directory
 - Or in `~/.claude/CLAUDE.md` for global access
 
 **Performance issues**
@@ -195,6 +186,6 @@ Add to `CLAUDE.md`:
 
 1. ✅ Claude Code installed
 2. ✅ PM library added  
-3. 📖 Read the [Quick Start Guide](quick-start-guide.md)
+3. 📖 Read [Quick Start Guide](quick-start-guide.md)
 4. 🚀 Try `/feature-spec` on your next PRD
-5. 💡 Check the [FAQ](FAQ.md) for common questions
+5. 💡 Check [FAQ](FAQ.md) for common questions
