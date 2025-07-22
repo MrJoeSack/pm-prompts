@@ -6,23 +6,40 @@ A Claude Code prompt library for product managers. Improve your PM workflow with
 
 Product management requires clear thinking under pressure. This library integrates PM frameworks into Claude Code to support better decision-making.
 
-## 🎯 How PMs Actually Use This (No Command Line Required!)
+## 🎯 How PMs Actually Use This (No Command Line Knowledge Required!)
 
-After one-time setup by IT/Engineering, PMs use Claude Code just like ChatGPT or Slack:
+After one-time setup by IT/Engineering, PMs use Claude Code through simple chat:
+
+### What Claude Code Actually Looks Like:
+Yes, Claude Code runs in a terminal window, but **you just chat with it** - no coding needed!
+- You'll see a command prompt, but you type in plain English
+- It responds like ChatGPT, but with PM superpowers
+- Slash commands (like `/feature-spec`) are just shortcuts
 
 ### The Simple Workflow:
 1. **Work in your normal tools** (Google Docs, Notion, Jira, etc.)
-2. **Open Claude Code** when you need help (it has a chat interface, not a terminal!)
-3. **Type a slash command** like `/feature-spec` or `/stakeholder-sync`
-4. **Paste your rough notes** or describe what you need
+2. **Open Claude Code** (yes it's a terminal, but you just chat in it!)
+3. **Type a slash command** like `/feature-spec` or just describe what you need
+4. **Paste your rough notes** or explain your situation
 5. **Copy the polished output** back to your document
 
-### Visual Example:
+### Visual Workflow:
 ```
-[Google Doc with rough notes] → [Claude Code chat: "/feature-spec"] → [Polished PRD]
+┌─────────────────────┐     ┌─────────────────────────┐     ┌─────────────────────┐
+│   Google Doc        │     │   Claude Code Terminal  │     │   Google Doc        │
+│                     │     │                         │     │                     │
+│ "need to spec out   │     │ $ claude                │     │ Feature: User Login │
+│  user login feature │     │                         │     │                     │
+│  - should be secure │ --> │ You: /feature-spec      │ --> │ Overview:           │
+│  - integrate with   │     │      [paste notes]      │     │ Secure auth system  │
+│    our SSO"         │     │                         │     │ integrating with    │
+│                     │     │ Claude: Here's your PRD:│     │ existing SSO...     │
+│                     │     │ [structured output]     │     │                     │
+└─────────────────────┘     └─────────────────────────┘     └─────────────────────┘
+     Rough Notes              Chat with Claude Code           Polished PRD
 ```
 
-**No coding. No terminal. Just chat and slash commands.**
+**Think of it like:** Opening Slack in a terminal - yes it's a terminal window, but you're just chatting!
 
 ## 📅 A PM's Typical Day with Claude Code
 
@@ -61,7 +78,7 @@ cd pm-prompts
 # Claude Code automatically loads everything
 ```
 
-**That's it!** Now any PM can use the slash commands in Claude Code's chat interface.
+**That's it!** Now any PM can open Claude Code and start chatting with their AI PM assistant.
 
 ## Core Capabilities
 
