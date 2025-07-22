@@ -6,16 +6,62 @@ A Claude Code prompt library for product managers. Improve your PM workflow with
 
 Product management requires clear thinking under pressure. This library integrates PM frameworks into Claude Code to support better decision-making.
 
-## Quick Start
+## 🎯 How PMs Actually Use This (No Command Line Required!)
+
+After one-time setup by IT/Engineering, PMs use Claude Code just like ChatGPT or Slack:
+
+### The Simple Workflow:
+1. **Work in your normal tools** (Google Docs, Notion, Jira, etc.)
+2. **Open Claude Code** when you need help (it has a chat interface, not a terminal!)
+3. **Type a slash command** like `/feature-spec` or `/stakeholder-sync`
+4. **Paste your rough notes** or describe what you need
+5. **Copy the polished output** back to your document
+
+### Visual Example:
+```
+[Google Doc with rough notes] → [Claude Code chat: "/feature-spec"] → [Polished PRD]
+```
+
+**No coding. No terminal. Just chat and slash commands.**
+
+## 📅 A PM's Typical Day with Claude Code
+
+**9:00 AM - Sprint Planning**
+- Copy backlog items into Claude Code
+- Type `/prioritization`
+- Get RICE scores and recommendations
+- Paste organized priorities back into Jira
+
+**11:00 AM - Customer Call Notes**
+- Paste messy interview notes
+- Type `/customer-feedback`
+- Get structured insights with themes and quotes
+- Add to research repository
+
+**2:00 PM - Feature Request from Sales**
+- Draft rough feature idea
+- Type `/feature-spec`
+- Receive complete PRD with user stories
+- Share with engineering team
+
+**4:00 PM - CEO Asks for Update**
+- Brain dump current status
+- Type `/stakeholder-sync`
+- Get executive-ready email
+- Send polished update
+
+## 🚀 Quick Start (One-Time Setup)
+
+**For PMs:** Ask your engineering team to run this one-time setup:
 
 ```bash
-# Clone into your Claude Code projects
+# Engineering team runs this once
 git clone https://github.com/MrJoeSack/pm-prompts.git
 cd pm-prompts
-
-# Claude Code will automatically load CLAUDE.md context
-# Custom slash commands are ready to use
+# Claude Code automatically loads everything
 ```
+
+**That's it!** Now any PM can use the slash commands in Claude Code's chat interface.
 
 ## Core Capabilities
 
@@ -31,27 +77,40 @@ cd pm-prompts
 - Context-aware prompt application
 - Memory integration for consistent project knowledge
 
-**🔄 Workflow Automation**
-- `/strategy-review` - Strategy document analysis
-- `/feature-spec` - Generate feature specifications  
-- `/stakeholder-sync` - Draft alignment communications
+**🔄 Workflow Automation Commands**
+- `/strategy-review` - Analyze and improve strategy documents
+- `/feature-spec` - Transform ideas into complete specifications  
+- `/stakeholder-sync` - Create executive-ready communications
 - `/research-plan` - Structure user research approaches
 - `/roadmap-planning` - Systematic roadmap creation and prioritization
 - `/prioritization` - RICE, ICE, and Kano model scoring
-- `/customer-feedback` - Feedback synthesis and analysis
-- `/okr-planning` - Objective and key result setting
+- `/customer-feedback` - Synthesize and analyze feedback
+- `/okr-planning` - Set objectives and key results
 - `/competitive-analysis` - Market intelligence and positioning
-- `/product-launch` - Launch planning and coordination
+- `/product-launch` - Plan and coordinate launches
 
-## Installation
+## Installation Options
 
+### Option 1: Project-Specific (Recommended)
 ```bash
-# Quick start - project specific
+# IT/Engineering runs this once per project
 git clone https://github.com/MrJoeSack/pm-prompts.git .pm-library
 cp .pm-library/CLAUDE.md ./CLAUDE.md
 cp -r .pm-library/.claude ./
+```
 
-# Commands now available: /strategy-review, /feature-spec, /prd-review
+### Option 2: Global Access
+```bash
+# IT sets this up once for all projects
+mkdir -p ~/.claude-global
+git clone https://github.com/MrJoeSack/pm-prompts.git ~/.claude-global/pm-library
+# Create symlinks for each project
+```
+
+### Option 3: Direct Integration
+```bash
+# Quick setup via curl
+curl -sSL https://raw.githubusercontent.com/MrJoeSack/pm-prompts/main/install.sh | bash
 ```
 
 ## Navigation
@@ -101,7 +160,25 @@ cp -r .pm-library/.claude ./
 🎯 **6 Product Operations** - Roadmapping, prioritization, feedback, OKRs, launches, competitive analysis  
 💼 **8 Advanced Scenarios** - Stakeholder management, GTM, crisis communication, team alignment  
 ⚡ **Automated Reviews** - Apply multiple frameworks to documents  
-📖 **Real Examples** - Practical PM scenarios with comprehensive test coverage  
-🔧 **Easy Setup** - Quick installation options
+📖 **Real Examples** - Practical PM scenarios  
 
-The work is difficult. These tools make it systematic.
+## For Management: Why Your PMs Need This
+
+### Time Savings
+- **Feature specs**: 3 hours → 30 minutes
+- **Executive updates**: 45 minutes → 10 minutes  
+- **Prioritization**: 2 hours → 15 minutes
+
+### Quality & Consistency
+- Every PM uses the same proven frameworks
+- Junior PMs produce senior-level outputs
+- Reduces blind spots in strategy and planning
+
+### Easy Adoption
+- **PMs need zero technical skills** - it's just like using ChatGPT
+- One-time setup by IT (5 minutes)
+- ROI visible within first week
+
+---
+
+*The work is difficult. These tools make it systematic.*
