@@ -69,16 +69,20 @@ Yes, Claude Code runs in a terminal window, but **you just chat with it** - no c
 
 ## 🚀 Quick Start (One-Time Setup)
 
+**Prerequisites:** Claude Code must be installed first ([see installation guide](docs/installation.md))
+
 **For PMs:** Ask your engineering team to run this one-time setup:
 
 ```bash
-# Engineering team runs this once
-git clone https://github.com/MrJoeSack/pm-prompts.git
-cd pm-prompts
-# Claude Code automatically loads everything
+# Engineering team runs this once in your project folder
+git clone https://github.com/MrJoeSack/pm-prompts.git .pm-library
+cp .pm-library/CLAUDE.md ./CLAUDE.md
+cp -r .pm-library/.claude ./
 ```
 
 **That's it!** Now any PM can open Claude Code and start chatting with their AI PM assistant.
+
+👉 **New to Claude Code?** Check our [FAQ](docs/FAQ.md) for why it's better than ChatGPT/Gemini for PM work.
 
 ## Core Capabilities
 
@@ -134,7 +138,8 @@ curl -sSL https://raw.githubusercontent.com/MrJoeSack/pm-prompts/main/install.sh
 
 **🚀 Getting Started**
 - [Quick Start Guide](docs/quick-start-guide.md) - Get productive in 5 minutes
-- [Installation Guide](docs/installation.md) - Setup options and troubleshooting  
+- [Installation Guide](docs/installation.md) - Claude Code setup + PM library install
+- [FAQ](docs/FAQ.md) - Why Claude Code? Common questions answered
 - [Usage Examples](docs/usage-examples.md) - Step-by-step workflows
 - [Google Docs Integration](docs/google-docs-integration.md) - Copy/paste workflows
 - [PM Workflows](docs/pm-workflows.md) - How PMs actually use this library
