@@ -131,7 +131,8 @@ ln -s /opt/pm-claude-library/.claude/commands ~/.claude/commands
 ```
 
 ### Security Considerations
-- Claude Code runs locally, no data sent to cloud
+- Claude Code processes files locally
+- You control what data is shared
 - Set file permissions appropriately
 - Can restrict which folders Claude Code can access
 - All actions are logged in terminal history
@@ -188,7 +189,7 @@ Add to `CLAUDE.md`:
 
 - **PM Library Issues**: [GitHub Issues](https://github.com/MrJoeSack/pm-prompts/issues)
 - **Claude Code Help**: [Claude Code Docs](https://docs.anthropic.com/en/docs/claude-code)
-- **Community**: Join #pm-claude-code in your company Slack
+- **Community**: Share with your team for feedback and tips
 
 ## Next Steps
 
