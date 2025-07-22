@@ -12,31 +12,35 @@ Apply these principles to all PM work:
 
 ## Available Frameworks
 
+**Core PM Skills**
+- `core/economical-writing.md` - McCloskey's clarity principles
+- `core/feature-planning.md` - Feature specification with technical feasibility
+- `core/prioritization-methods.md` - RICE, ICE, Kano model frameworks
+- `core/stakeholder-communication.md` - Effective stakeholder alignment
+- `core/user-research.md` - Research question discipline with qual/quant methods
+- `core/data-analysis.md` - Signal vs noise with A/B testing design
+
 **Strategy & Planning**
-- `good-strategy-framework.md` - Rumelt's diagnosis/policy/action kernel
-- `strategic-planning.md` - Clear strategic document structure
-- `quarterly-planning.md` - Strategic planning with capacity planning
-- `roadmap-planning.md` - Systematic roadmapping with RICE prioritization
-- `okr-framework.md` - Objective setting and key result tracking
+- `strategy/good-strategy-framework.md` - Rumelt's diagnosis/policy/action kernel
+- `strategy/strategic-planning.md` - Clear strategic document structure
+- `strategy/roadmap-planning.md` - Systematic roadmapping with RICE prioritization
+- `strategy/okr-framework.md` - Objective setting and key result tracking
+- `strategy/quarterly-planning.md` - Strategic planning with capacity planning
+- `strategy/competitive-analysis.md` - Market intelligence and positioning
 
-**Product Operations**
-- `feature-planning.md` - Feature specification with technical feasibility
-- `prioritization-methods.md` - RICE, ICE, Kano model frameworks
-- `customer-feedback.md` - Feedback synthesis and Jobs-to-be-Done analysis
-- `competitive-analysis.md` - Market intelligence and positioning strategy
-- `product-launch.md` - Launch planning, execution, and optimization
+**Product Delivery**
+- `product-delivery/prfaq-generation.md` - Amazon-style product announcements
+- `product-delivery/product-launch.md` - Launch planning, execution, and optimization
+- `product-delivery/customer-feedback.md` - Feedback synthesis and Jobs-to-be-Done
+- `product-delivery/go-to-market.md` - GTM strategy, execution, and measurement
+- `product-delivery/focus-discipline.md` - Systematic prioritization
 
-**Communication & Analysis** 
-- `economical-writing.md` - McCloskey's clarity principles
-- `stakeholder-communication.md` - Effective stakeholder alignment
-- `stakeholder-mapping.md` - Influence analysis and coalition building
-- `data-analysis.md` - Signal vs noise with A/B testing design
-- `user-research.md` - Research question discipline with qual/quant methods
-- `crisis-communication.md` - Crisis response and trust preservation
-
-**Advanced Capabilities**
-- `go-to-market.md` - GTM strategy, execution, and measurement
-- `team-alignment.md` - Cross-functional coordination and collaboration
+**Special Situations**
+- `special-situations/crisis-communication.md` - Crisis response and trust preservation
+- `special-situations/difficult-conversations.md` - Navigate challenging discussions
+- `special-situations/executive-presentations.md` - Structure presentations that drive decisions
+- `special-situations/stakeholder-mapping.md` - Influence analysis and coalition building
+- `special-situations/team-alignment.md` - Cross-functional coordination and collaboration
 
 ## Claude Code Workflow Integration
 
