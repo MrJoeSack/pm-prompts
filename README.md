@@ -50,7 +50,7 @@ Done. PMs can now use Claude Code with PM commands.
 - `/okr-planning` - Set objectives and key results
 - `/competitive-analysis` - Market intelligence
 - `/competitor-research` - Deep competitor research with web and news analysis
-- `/google-docs-integration` - Import from and export to Google Docs/Sheets
+- `/markdown-export` - Export reports and analysis as local markdown files
 - `/product-launch` - Launch planning
 
 **Complete list:** Type `/pm-help` in Claude Code
@@ -77,7 +77,7 @@ git clone https://github.com/MrJoeSack/pm-prompts.git ~/.claude-global/pm-librar
 - [Installation Guide](docs/installation.md) - Claude Code setup + PM library
 - [FAQ](docs/FAQ.md) - Common questions
 - [Usage Examples](docs/usage-examples.md) - Step-by-step workflows
-- [Google Docs Workflows](docs/google-docs-workflows.md) - Import and export integration
+- [Markdown Workflows](docs/markdown-workflows.md) - Local file export and organization
 
 **PM Skills**
 - [Economical Writing](core/economical-writing.md) - McCloskey's clarity principles
@@ -111,7 +111,7 @@ git clone https://github.com/MrJoeSack/pm-prompts.git ~/.claude-global/pm-librar
 
 ## What's Included
 
-- **17 Slash Commands** - Quick access to PM tasks  
+- **16 Slash Commands** - Quick access to PM tasks  
 - **PM Frameworks** - Based on established methodologies  
 - **Core Skills** - Writing, planning, prioritization, communication
 - **Strategy Tools** - Roadmapping, OKRs, competitive analysis
