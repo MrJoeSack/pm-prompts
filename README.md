@@ -111,7 +111,7 @@ git clone https://github.com/MrJoeSack/pm-prompts.git ~/.claude-global/pm-librar
 
 ## What's Included
 
-- **16 Slash Commands** - Quick access to PM tasks  
+- **22 Slash Commands** - Quick access to PM tasks  
 - **PM Frameworks** - Based on established methodologies  
 - **Core Skills** - Writing, planning, prioritization, communication
 - **Strategy Tools** - Roadmapping, OKRs, competitive analysis
