@@ -58,6 +58,7 @@ Apply these principles to all PM work:
 - `/review` - Improve any document (alias)
 - `/meeting-prep` - Structure meeting agendas
 - `/focus-discipline` - Apply systematic prioritization
+- `/google-docs-integration` - Import from and export to Google Docs/Sheets
 
 *Product Operations Commands:*
 - `/roadmap-planning` - Systematic roadmap creation and prioritization
