@@ -39,7 +39,7 @@ You: Competitor: [company] vs [your company]
 Claude: [Complete competitive analysis]
 
 You: /markdown-export
-You: Directory: C:\Users\joesa\Documents\Research
+You: Directory: C:\Users\you\Documents\Research
 You: Type: competitive analysis
 Claude: [Creates formatted markdown file]
 ```
@@ -75,7 +75,7 @@ You: Feature: [description]
 Claude: [Creates complete PRD]
 
 You: /markdown-export
-You: Directory: C:\Users\joesa\Documents\Features
+You: Directory: C:\Users\you\Documents\Features
 You: Title: Feature_Authentication_PRD
 Claude: [Exports formatted specification]
 ```
@@ -216,7 +216,7 @@ You: [Q3 performance data]
 Claude: [Strategic analysis]
 
 You: /markdown-export
-You: Directory: C:\Users\joesa\Documents\Strategy
+You: Directory: C:\Users\you\Documents\Strategy
 You: Title: Q3_2025_Review
 → Creates executive-ready strategy document
 ```
